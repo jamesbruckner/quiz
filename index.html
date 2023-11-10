@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz Time</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+  </head>
+
+
+<main>
+  <body>
+    <header>
+        <h1>It is quiz time.</h1>
+    </header>
+    <span id="count">60</span> seconds remain.
+<br>
+<button onclick="start()">
+START
+</button>
+    <div class="btn-group">
+      <h1>Quiz Application Using JavaScript</h1>
+      <div class="question" id="ques"></div>
+      <div class="options" id="opt"></div>
+      <button onclick="checkAns()" id="button">SUBMIT</button>
+      <div id="score"></div>
+    </div>
+    <aside id="countdown"></aside>
+    <script src="./assets/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+  </body>
+</main>
