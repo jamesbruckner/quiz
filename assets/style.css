@@ -6,55 +6,8 @@ body{
 	align-content: center;
 	background-color: antiquewhite;
 	display: inline-flex;
-	font-size: 20px;
-	font-family: sans-serif;
-	color: #333;
+	font-size: 30px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-header {
-	text-align: center;
-	display: inline;
-	align-items: center;
-	justify-content: center;
-	align-content: center;
-}
-
-#countdown {
-	font-family: sans-serif;
-	color: red;
-	float: right;
-}
-
-.btn-group button {
-	text-align: left;
-	background-color: #04AA6D; 
-	border: 1px solid green;
-	color: white;
-	padding: 10px 24px; 
-	cursor: pointer; 
-	width: 200px; 
-	display: block;
-  }
-  
-  .btn-group button:hover {
-	background-color: #3e8e41;
-  }
-
-
-  #container {
-	position: relative;
-	border: 1px solid red;
-	height: 100px;
-  }
-  
-  #box {
-	position: absolute;
-	top: 50px;
-	left: 20px;
-  }
-
-  h3 {
-	color: green;
-	background-color: silver;
-	padding: 10px 10px;
-  }
+/* I'd love to include more CSS but nothing seems to be working. */
